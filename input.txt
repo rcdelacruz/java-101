@@ -1,0 +1,2 @@
+Hello, this is a sample content for the input.txt file.
+Add more lines as needed.
