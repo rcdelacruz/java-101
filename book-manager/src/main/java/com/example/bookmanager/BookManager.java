@@ -14,6 +14,10 @@ public class BookManager {
         books.forEach(System.out::println);
     }
 
+    public void deleteBook(String title) {
+        books.removeIf(book -> book.getTitle().equals(title));
+    }
+
     public static void main(String[] args) {
         BookManager manager = new BookManager();
         manager.addBook(new Book("The Hobbit", "J.R.R. Tolkien"));
